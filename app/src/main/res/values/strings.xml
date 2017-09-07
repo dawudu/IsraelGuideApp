@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">IsraelGuideApp</string>
+    <string name="title_activity_abugosh">Abugosh</string>
+
+    <string name="abugosh_description">Abugosh city is a one of the most visited cities in Israel, known for its concrete jungle magestic backdrop,
+        this beautiful city offers wide variety of attractions</string>
+
+    <string name="acreakko_description">If you are a big fan of sea, acreakko city is the perfect place to visit in israel,Only 5 km away from central Jerusalem.
+    </string>
+
+    <string name="ashdod_description">Also known as the city of the opulent,ashdod city is bar far the most elegant city of them all in israel, state of the art facilities,
+    high-tech companies , well known-night clubs that attract famous celebrities all over the world, this city never disappoints</string>
+
+    <string name="haifa_description"> Haifa city is the epitomy of nature, the only on earth that can replace the Garden of Eden in the holy bible is this holy city </string>
+
+    <string name="batshlomo_description"> If its adventure you are looking for,Welcome to the city Batshlomo</string>
+
+    <string name="jerusalem_description"> The most popular city in israel, rich in history, monuments, ancient artifacts and an abundance of mesuems preserving the history
+    of this ancient city.Formally known known as Judea, this city is </string>
+
+    <string name="telaviv_description">The city of Telaviv is a popular landmark for sports in israel, sport lovers all over the world flock to this part of israel.</string>
+
+    <string name="tiberias_description"> Tiberias is home to one of the most beautiful hotels, feel free to dine in style and shop till you drop. </string>
+</resources>

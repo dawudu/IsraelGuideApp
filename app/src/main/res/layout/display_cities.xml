@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#33FFFF"
+    tools:context="com.example.manthole.israelguideapp.Abugosh">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#33FFFF"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/DefaultImage"
+                android:layout_width="wrap_content"
+                android:layout_height="402dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/abugosh" />
+
+            <TextView
+                android:id="@+id/txtdescprition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/AbugoshImage"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="32dp"
+                android:layout_weight="4.14"
+                android:fontFamily="casual"
+                android:textColor="#000066"
+                android:textSize="20dp"
+                tools:text="@string/abugosh_description" />
+
+            <Button
+                android:id="@+id/btnRequestTourist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000066"
+                android:paddingBottom="10dp"
+                android:text="Request Tour Guider"
+                android:textColor="#33FFFF" />
+
+            <Button
+                android:id="@+id/btnFindus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.30"
+                android:background="#000066"
+                android:text="Find us"
+                android:textColor="#33FFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

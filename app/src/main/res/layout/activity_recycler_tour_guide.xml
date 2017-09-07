@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tourGuiderrecycleview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF"
+    tools:context="com.example.manthole.israelguideapp.RecyclerTourGuide">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="1000dp">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="800dp"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/txtCasey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="monospace"
+                android:text="Casey"
+                android:textAlignment="center"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/casey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/casey" />
+
+            <TextView
+
+                android:id="@+id/txtRick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="monospace"
+                android:text="Rick"
+                android:textAlignment="center"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/Rick"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/rick" />
+
+            <TextView
+
+                android:id="@+id/txtWendy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="monospace"
+                android:text="Wendy"
+                android:textAlignment="center"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/Wendy"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/wendy" />
+
+            <TextView
+                android:id="@+id/txtElen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="monospace"
+                android:text="Elen"
+                android:textAlignment="center"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/Elen"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/elen" />
+
+            <TextView
+                android:id="@+id/txttanyani"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="monospace"
+                android:text="Tanyani"
+                android:textAlignment="center"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/tanyani"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/tanyani" />
+
+            <TextView
+                android:id="@+id/txtKate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="monospace"
+                android:text="Kate"
+                android:textAlignment="center"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/Kate"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/tanyani" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.manthole.israelguideapp.HomePage">
+
+    <Button
+        android:id="@+id/btnCityTours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="66dp"
+        android:background="#33CC"
+        android:text="City Tours" />
+
+    <Button
+        android:id="@+id/btnHotelsAccomodation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnCityTours"
+        android:layout_marginTop="11dp"
+        android:background="#33CC"
+        android:text="Hotels-Accomodation" />
+
+    <Button
+        android:id="@+id/btnRestaurants"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnShopping"
+        android:layout_marginTop="17dp"
+        android:background="#33CC"
+        android:text="Restaurants" />
+
+    <Button
+        android:id="@+id/btnShopping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnHotelsAccomodation"
+        android:layout_marginTop="14dp"
+        android:background="#33CC"
+        android:text="Shopping" />
+
+    <Button
+        android:id="@+id/btnCinemaHalls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnRestaurants"
+        android:layout_marginTop="16dp"
+        android:background="#33CC"
+        android:text="Cinema Halls" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCinemaHalls"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:background="#33CC"
+        android:text="Exit" />
+
+    <ImageView
+        android:id="@+id/imageHomepage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/homeage" />
+
+
+</RelativeLayout>
